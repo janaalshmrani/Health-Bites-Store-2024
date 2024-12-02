@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+  <style>
+
+  { margin:0 ;
+    padding :0 ;
+    box-sizing:border-box;
+  scroll-behavior:smooth; 
+  }
+  header{ background-color : #b1e6b7;
+    width : 100%
+    position:fixed;
+    z-index:999;
+    display:flex; 
+    justify-content:space-between;
+    align-items:center;
+    padding:10px 200px ;
+    }
+  
+  .Home { text-decoration: none;
+    color: lightgreen; 
+          text-transform: uppercase;
+          font-weight: 700;
+          font-size: 1.8em;}
+
+.navigation a {
+    color: lightgreen;
+    text-decoration: none;
+          text-transform: uppercase;
+          font-weight: 700;
+          font-size: 1.8em;
+          padding-left: 30px;}
+
+.navigation a : hover{
+    color : #006400;
+
+}
+section {
+    padding: 100px 200px ;
+
+}
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+
+}
+.main  h3 {
+    color: #d4e8d4;
+    font-size: 3em;
+    font-weight: 600;
+
+}
+.main  h4 {
+    display: inline-block;
+    margin: 10px;
+    color: rgb(160, 197, 160);
+    font-size: 1.4em;
+    font-weight: 500;
+    
+}
+.main-button{
+    color: #f0f0f0;
+    background-color: lightgreen;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em; 
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+
+}
+.main-button:hover{
+    background-color: mediumaquamarine;
+    transform: scale(1,1);
+
+}
+
+.footer { 
+    color: darkgreen;
+    font-size: 1.7em;
+}    
+ </style>

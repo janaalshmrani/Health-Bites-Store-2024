@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            text-align: center;
+        }
+
+        h1 {
+            color: #000;
+            margin-top: 20px;
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .meal-card {
+            background-color: #fff;
+            margin: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .meal-card:hover {
+            transform: scale(1.05);
+        }
+
+        .meal-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 15px 15px 0 0;
+        }
+
+        .meal-card p.description {
+            font-size: 18px;
+            font-style: italic;
+            color: #333;
+            padding: 15px;
+            background-color: #f1f1f1;
+            border-radius: 0 0 15px 15px;
+        }
+
+        .meal-card .price {
+            font-size: 20px;
+            color: #999;
+            text-decoration: line-through;
+            margin-top: 10px;
+        }
+
+        .meal-card .discounted-price {
+            font-size: 24px;
+            color: #e74c3c;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+
+        .meal-card .title {
+            font-size: 22px;
+            font-weight: bold;
+            color: #000;
+            margin-top: 15px;
+        }
+
+        .meal-card .offer {
+            font-size: 16px;
+            color: #e67e22;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Special Snack Offers</h1>
+
+    <div class="container">
+
+        <!-- Healthy Chocolate Covered Nuts -->
+        <div class="meal-card">
+            <img src="https://pics.walgreens.com/prodimg/627118/450.jpg" alt="Healthy Chocolate Covered Nuts">
+            <p class="title">Healthy Chocolate Covered Nuts</p>
+            <p class="description">Dark chocolate-covered almonds, gluten-free and palm oil-free, perfect for a healthy snack.</p>
+            <p class="price">$6.00</p>
+            <p class="discounted-price">$4.50</p>
+            <p class="offer">25% OFF</p>
+        </div>
+
+        <!-- Valor Dark Chocolate -->
+        <div class="meal-card">
+            <img src="https://m.media-amazon.com/images/I/61BY-2bSRaL.jpg" alt="Dark Chocolate">
+            <p class="title">Valor 70% Cocoa Dark Chocolate</p>
+            <p class="description">No added sugar, 70% cocoa dark chocolate, a rich and indulgent treat for any time of the day.</p>
+            <p class="price">$8.00</p>
+            <p class="discounted-price">$6.00</p>
+            <p class="offer">25% OFF</p>
+        </div>
+
+        <!-- Greek Yogurt Starter -->
+        <div class="meal-card">
+            <img src="https://epigamiastore.com/cdn/shop/products/Natural_400g-01_2048x.png?v=1663585833" alt="Greek Yogurt Starter">
+            <p class="title">Greek Yogurt Starter</p>
+            <p class="description">Create your own creamy and delicious Greek yogurt at home with this easy-to-use starter culture.</p>
+            <p class="price">$5.00</p>
+            <p class="discounted-price">$3.75</p>
+            <p class="offer">25% OFF</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
