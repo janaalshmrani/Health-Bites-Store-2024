@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="like http://Health Bites .com/">
     <meta charset="UTF-8">
     <meta name="description" content="Health Bites - Your destination for wellness and fitness.">
     <title>Health Bites</title>
@@ -10,33 +11,120 @@
     <header>
         <h1>Welcome to the Health Bites Store</h1>
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV3pmxJ7oMLme30INvdR3W8KZmedCsQ0zAzg&s.jpg" alt="logo" width="500" height="333">
-      <nav>
+        
+     <nav class = “navigation” >
         <a href="Home.html">Home</a>
         <a href="Aboute us.html">Aboute us</a>
          <a href="Snack Guide.html">Snack Guide</a>
          <a href="Snack Offers.html">Snack Offers</a>
          <a href="contact.html">Contact Us</a>
-  <nav>
+        </nav>
          </header>
-
     <main>
-        <section>
+        <section class = “main”>
             <h2>Snack Guide</h2>
             <p>Find the perfect snack for every craving and lifestyle. From quick energy boosts to guilt-free indulgence, our guide helps you snack smarter and healthier!</p>
-            <button><a href="Snack Guide.html">Shop Now</a></button>
+            <button><a href="Snack Guide.html">View</a></button>
         </section>
 
-        <section>
+        <section class = “main”>
             <h2>Snack Offers</h2>
             <p>Enjoy irresistible deals on your favorite healthy snacks. Stock up and save while snacking smarter!</p>
-            <button><a href="Snack Offers.html">View Offers</a></button>
+            <button><a href="Snack Offers.html"> Offers</a></button>
         </section>
     </main>
-
+<link rel="stylesheet" href="css/style.css">
     <footer>
         <p>&copy; 2024 Health Bites Store. All rights reserved.</p>
         <a href="mailto:support@healthstore.com">Contact Us</a>
     </footer>
+    <style>
+    *{
+        margin:0;
+    padding: 0;
+box-sizing: border-box;}
+body{
+    background-color: lightgreen;
+}
+nav{
+    width: 30%;
+    min-width: 600px;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+nav a {
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    color: #909090;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-translation: 0.3s;
+    -o-transition: 0.3s;
+padding: 0 10px;}
+a :{
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: mediumseagreen;
+    bottom: -7px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-translation: 0.3s;
+    -o-transition: 0.3s;
+}
+
+a:hover {
+    color: #f0f0f0;
+}
+a:hover:before{
+    width:100% ;
+}
+.Shop {
+border: 1px solid #909090;
+padding: 15px;
+color: #909090;;
+background: darkslategre;
+border-radius: 5px;
+transition: all 0.5s;
+font: 20px;
+}
+.Shop:hover {
+    border: 1px solid #909090;
+    padding: 15px;
+    color: darkslategrey;
+    background: #909090;
+    border-radius: 5px;
+    transition: all 0.5s;
+    font: 20px;
+    }
+    .Offers {
+        border: 1px solid #909090;
+        padding: 15px;
+        color: #909090;;
+        background: darkslategre;
+        border-radius: 5px;
+        transition: all 0.5s;
+        font: 20px;
+        }
+        .Offers:hover {
+            border: 1px solid #909090;
+            padding: 15px;
+            color: darkslategrey;
+            background: #909090;
+            border-radius: 5px;
+            transition: all 0.5s;
+            font: 20px;
+            }
+    </style>
 </body>
 </html>
-
