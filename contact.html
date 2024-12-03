@@ -1,29 +1,63 @@
-<!DOCTYPE html>
 <html>
-<body>
+    <section class="cards contact" id="contact">
+        <h2 class="title">Contact</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <div class="info">
+                    <h3>Phone</h3>
+                    <p>+20122222222</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="info">
+                    <h3>Email</h3>
+                    <p>business@healthybites.com</p>
+                </div>
+            </div>
+        </div>
+        <style>
+          .card {
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
 
-<h2>Contact</h2>
+.card:hover {
+    transform: scale(1.1);
+}
 
-<form action="/Health Bites Store_page.php">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value="Rub..."><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value="AL..."><br><br>
-  <label for="lname">Email:</label><br>
-  <input type="text" id="lname" email="lname" value="....@gmail.com"><br><br>
-  <label for="lname">Message:</label><br>
-  <input type="text" id="lname" message="lname" value="Note"><br><br>
-  <input type="submit" value="Submit">
-</form> 
+.card.icon {
+    color: #909090;
+    font-size: 8em;
+    text-align: center;
+}
 
-<p>If you click the "Submit" button, the form-data will be sent to a page called "/Health Bites Store_page.php".</p>
+.info {
+    text-align: center;
+}
 
-<h1>Call us </h1>
-<p>0155599911</p>
-<hr>
-<h1>Send us </h1>
-<p>Health Bites Store@Gmail.com.</p>
-<hr>
+.contact.icon{
+    font-size: 4.5em;
+}
 
-</body>
-</html>
+.contact.info h3 {
+    color: #000;
+}
+
+.contact.info p {
+    font-size: 1.5em;
+}
+        </style>
+    </section>
+  </body>
+    </html>
